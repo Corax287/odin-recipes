@@ -11,6 +11,12 @@ h2,
 h1 {
 
     background-color: rgb(255,0,0,0.3);
+    padding: 10px;
+    border: 1px solid red;
+    width: 300px;
+    margin: 30px auto 40px;
+    text-align: center;
+    
 
 
 
@@ -19,6 +25,9 @@ h1 {
 h2 {
 
     background-color: rgb(255,255,0,0.3);
+    padding: 10px;
+    margin-top: 30px;
+    border: 1px dotted black;
 
 
 }
@@ -26,10 +35,22 @@ h2 {
 .rec-list {
 
     color: #ff0000;
+    width: 300px;
+    border: 1px solid blue;
+    padding-left: 20px;
+    
+    
+    
 
 
 }
 
+li , .rec-list.odd {
+     
+    width: 250px;
+
+
+}
 
 
 
@@ -41,3 +62,15 @@ h2 {
     font-weight: bold;
 }
 
+.sidep1 {
+
+    display:inline-block;
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(0,255,0);
+    margin-left: 380px;
+    margin-top: -130px;
+    border: 1px dashed yellow;
+
+
+}
